@@ -1,7 +1,1 @@
-SELECT
-  EXTRACT(DAYOFYEAR FROM post_date) AS dayofyear,
-  COUNT(id) AS num_stories
-FROM fh-bigquery.hackernews.stories
-GROUP BY dayofyear
-ORDER BY num_stories DESC
-LIMIT 10
+Error: Output DSL not found or unsupported. Please make sure to end the query with 'in <DSL>' where DSL is one of: DBT, LookML, SQL, LKML
