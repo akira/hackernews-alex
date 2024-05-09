@@ -4,4 +4,4 @@ SELECT
 FROM fh-bigquery.hackernews.stories
 GROUP BY dayofyear
 ORDER BY num_stories DESC
-LIMIT 1
+LIMIT 10
